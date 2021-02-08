@@ -103,15 +103,14 @@ public class ControlSemaforos : MonoBehaviour
     {
         while (true)
         {
-            SemaforoRojo();
+            SemaforoVerde();
             yield return new WaitForSeconds(1);
             Semaforo13Amarillo();
             yield return new WaitForSeconds(1);
+            SemaforoRojo();
+            yield return new WaitForSeconds(1);
             Semaforo24Amarillo();
             yield return new WaitForSeconds(1);
-            SemaforoVerde();
-            yield return new WaitForSeconds(1);
-
         }
     }
 }
