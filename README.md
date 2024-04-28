@@ -19,6 +19,6 @@ To run this project, you will need Unity installed on your computer. Follow thes
 
 ```bash
 # Clone the repository
-git clone https://github.com/rcarlosjorge/Unity-Traffic-Simulator.git
+git clone https://github.com/rcarlosjorge/Simulador2D.git
 # Open Unity Hub and select 'Open'.
 # Navigate to the project directory and open it
